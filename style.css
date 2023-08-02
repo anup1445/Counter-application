@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 5.3rem;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#save-btn{
+    background-color: green;
+}
+
+
+
+#increment-btn{
+    background-color: red;
+}
+
+
+
+#save-el{
+    margin-top: 10px;
+
+    font-size: 20px;
+}
